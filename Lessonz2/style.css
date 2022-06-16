@@ -1,0 +1,30 @@
+.violet{
+    background-color: blueviolet;
+
+    height: 256px;
+    width: 512px;
+}
+.yellow{
+    background-color: gold;
+
+    font-size: 16px;
+
+    height: 42px;
+    width: 84px;
+}
+.green{
+    background-color:darkgreen;
+
+    font-size: 16px;
+
+    height: 85px;
+    width: 256px;
+}
+.red{
+    background-color: crimson;
+
+    font-size: 32px;
+
+    height: 85px;
+    width: 512px;
+}

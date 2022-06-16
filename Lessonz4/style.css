@@ -1,0 +1,46 @@
+.main{
+    width: 256px;
+    height: 1024px;
+
+    background-color: antiquewhite;
+
+    margin-left: 32px;
+    margin-top: 64px;
+}
+.image{
+    width: 240px;
+
+    padding-left: 8px;
+    padding-top: 8px;
+}
+.name{
+    color: cornflowerblue;
+
+    padding-left: 42px;
+
+    font-size: 24px;
+}
+.price{
+    color: indianred;
+
+    padding-left: 32px;
+}
+.sale{
+    color: crimson;
+
+    margin-left: 8px;
+
+    font-size: 18px;
+    width: 48px;
+}
+.buy{
+    margin-top: 32px;
+    margin-left: 32px;
+
+    background-color: darkred;
+    color: aliceblue;
+
+    width: 36px;
+
+    font-size: 16px;
+}
