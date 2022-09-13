@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+}
+.Header-Menu {
+  height: 100vh;
+  background-size: cover;
+  background-image: url(./Images/HeaderImage.jpg);
+}
+body {
+  background-color: #ffffff;
+}
+.CompanyName {
+  font-size: 24px;
+  font-family: "Hammersmith One";
+  font-weight: 400;
+  letter-spacing: 2px;
+  position: absolute;
+  left: 128px;
+  top: 48px;
+}
+.Button-Container {
+  position: absolute;
+  right: 96px;
+  top: 48px;
+}
+.Button {
+  font-family: "Open Sans";
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-left: 48px;
+}
+.Button:hover {
+  border-bottom: 2px solid #2332ff;
+}
+.Tagline-Container {
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 384px;
+}
+.Tagline {
+  font-family: "Hammersmith One";
+  font-size: 92px;
+  font-weight: 400;
+  color: #3232ff;
+}
+.QuoteButton {
+  display: inline-block;
+  padding: 24px 64px;
+  background-color: #ffffff;
+  color: #161616;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: "Open Sans";
+  margin-top: 48px;
+  transition: 0.2s;
+}
+.QuoteButton:hover {
+  background-color: #ffa000;
+  color: #ffffff;
+}
