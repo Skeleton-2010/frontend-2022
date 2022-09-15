@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Aboreto", cursive;
+}
+body {
+  background-color: #fafaff;
+}
+
+.Card-Menu {
+  border-radius: 16px;
+  background-color: #ccccdd;
+  width: 512px;
+  height: 1024px;
+  margin-left: 32px;
+  margin-top: 32px;
+}
+.Card-Title {
+  font-size: 40px;
+  padding: 32px;
+}
+.Credit-Card {
+  position: relative;
+  left: 64px;
+  background-color: #aaaaff;
+  margin-top: 128px;
+  width: 512px;
+  height: 320px;
+  border-radius: 32px;
+  box-shadow: 12px 12px rgb(12, 12, 12, 0.2);
+}
+.Logo {
+  width: 128px;
+  position: absolute;
+  right: 32px;
+  bottom: 4px;
+}
+.Code {
+  font-size: 64px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 320px;
+}
+.Button {
+  display: block;
+  margin: auto;
+  margin-top: 192px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 64px;
+  font-size: 32px;
+  color: #fefefe;
+  width: 256px;
+  height: 64px;
+  background-color: #323232;
+  border-radius: 32px;
+  transition: 0.5s;
+}
+.Button:hover {
+  color: #323232;
+  border: 4px solid #323232;
+  background-color: transparent;
+}
+
+.CardText {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 400;
+  position: absolute;
+  left: 32px;
+  top: 32px;
+}
+.EnterName {
+  width: 384px;
+  height: 96px;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  margin: auto;
+  margin-top: 32px;
+}
+.EnterNameText {
+  position: relative;
+  left: 4px;
+  top: 4px;
+}
+.PersonName {
+  position: relative;
+  line-height: 96px;
+  text-align: center;
+  user-select: none;
+}

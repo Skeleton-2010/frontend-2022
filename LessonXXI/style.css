@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Text{
+    display: block;
+    width: 1538px;
+    height: 96px;
+    margin: auto;
+    margin-top: 16px;
+    font-size: 32px;
+    text-align: center;
+    line-height: 96px;
+    background-color: #efefef;
+    border: 1px solid #969696;
+    border-radius: 4px;
+
+}
+.Menu{
+    position: fixed;
+    right: 32px;
+    bottom: 32px;
+    width: 96px;
+    height: 96px;
+    border-radius: 32px;
+    border: 2px solid #969696;
+}
+.Door-Red{
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    width: 128px;
+    padding: 12px;
+    background-color: #efefef;
+    border-radius: 32px;
+    border: 1px solid #969696;
+}
+.Door-Blue{
+    position: fixed;
+    right: 64px;
+    bottom: 64px;
+    width: 64px;
+    padding: 16px;
+    background-color: #efefef;
+    border-radius: 12px;
+    border: 1px solid #969696;
+    transition: 0.5s;
+}
+.Door-Blue:hover{
+    right: 48px;
+    bottom: 48px;
+    padding: 32px;
+    background-color:#4880ff;
+    border-radius: 24px;
+    border: 1px solid #1f1fb7;
+}
+

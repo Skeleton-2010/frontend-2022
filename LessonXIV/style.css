@@ -1,0 +1,59 @@
+body{
+    background-color: #efefef;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+.Container{
+    background-color: #329632;
+    border-radius: 32px;
+    width: 48vw;
+    height: 16vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-top: 32px;
+}
+.LogoD,
+.LogoS,
+.LogoV{
+    width: 128px;
+    transition: 0.4s;
+}
+.Around{
+    height: 160px;
+    background-color: #ffddbb;
+    border-radius: 192px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.TextTop{
+    text-align: center;
+}
+.Name{
+    display: block;
+    text-decoration: none;
+    font-size: 24px;
+}
+.LogoD:hover{
+    background-color: #3264ff;
+    border-radius: 64px;
+    width: 160px;
+
+}
+.LogoV:hover{
+    background-color: #6448ff;
+    border-radius: 64px;
+    width: 160px;
+
+}
+.LogoS:hover{
+    background-color: #ff9648;
+    border-radius: 64px;
+    width: 160px;
+
+}

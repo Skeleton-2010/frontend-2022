@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+    font-weight: 800;
+}
+.Main{
+    background-image: url(./Images/pexels-fauxels-3183199.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.Content{
+    width: 72%;
+    margin: auto;
+}
+.Logo{
+    font-size: 80px;
+    color: #ffffff;
+}
+.LinkContainer{
+    display: flex;
+    gap: 24px;
+}
+.Link{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 600;
+    transition: 0.1s;
+}
+.Link:hover{
+    color: #ffcc00;
+}
+.ButtonTop{
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: 300;
+    color: #ffffff;
+    padding: 12px 12px 12px 12px;
+    border: 2px solid #ffcc00;
+    border-radius: 12px;
+    transition: 0.2s;
+}
+.ButtonTop:hover{
+    color: #ffcc00;
+    border: 2px solid #ff9600;
+}
+.Top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Text{
+    margin-top: 128px;
+    text-align: center;
+    color: #ffffff;
+}
+.Slogan{
+    font-size: 96px;
+    font-weight: 800;
+}
+.Slogan-bottom{
+    color: #eebb00;
+    font-size: 48px;
+    font-weight: 900;
+}
+.Buttons{
+    display: flex;
+    justify-content: space-around;
+}
+.Button-Contain{
+    text-align: center;
+    display: inline-block;
+    padding: 160px;
+    margin-left : 12px;
+    margin-top: 192px;
+    border: 2px solid #969696;
+    font-size: 32px;
+    transition: 0.2s;
+}
+.Button-Contain:last-child{
+    margin-right: 12px;
+}
+.Button{
+    color: #f1c40f;
+    font-size: 32px;
+    text-decoration: none;
+    font-weight: 800;
+    text-align: center;
+}
+.Image{
+    width: 128px;
+    margin: auto;
+}
+.Button-Contain:hover{
+    border-radius: 16px;
+    border: 2px solid #ffaa64;
+    padding: 160px 192px;
+    font-size: 32px;
+}
+.Logo-Dot{
+    color: #ffcc00;
+}

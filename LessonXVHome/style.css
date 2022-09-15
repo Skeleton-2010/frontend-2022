@@ -1,0 +1,33 @@
+body{
+    background-color: #2e3e4e;
+}
+.TextTop{
+    font-family: 'Berkshire Swash';
+    font-size: 64px;
+    text-align: center;
+    color: #ffffff;
+}
+.ButtonContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-top: 64px;
+    width: 64%;
+    height: 128px;
+    border-radius: 16px;
+    background-color: #38495B;
+}
+.Button{
+    background-color: #38495B;
+    padding: 44px 134px;
+    border-radius: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Actor';
+    font-size: 32px;
+    transition: 0.4s;
+}
+.Button:hover{
+    background-color: #44BC99 ;
+}
